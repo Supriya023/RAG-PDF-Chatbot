@@ -1,8 +1,6 @@
 # RAG-PDF-Chatbot
 Java Spring Boot RAG chatbot for academic PDFs using ChromaDB, Ollama, hybrid retrieval (BM25 + Vector Search), and citation-based question answering.
 
-# RAG PDF Chatbot
-
 ## Overview
 
 A Java Spring Boot based Retrieval-Augmented Generation (RAG) chatbot that allows users to upload PDF documents and ask questions about their content. The system extracts text from PDFs, stores embeddings in ChromaDB, retrieves relevant information using hybrid retrieval (Vector Search + BM25), and generates answers using Ollama with source citations.
